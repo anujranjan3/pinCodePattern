@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-#program for restricting Alphabets and Special Characters at beginning
+#program to restrict use of alphabets and special characters at the end
 
 read -p "Enter Pincode : " pincode;
 
