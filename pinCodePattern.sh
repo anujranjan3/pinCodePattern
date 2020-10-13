@@ -1,10 +1,8 @@
 #!/bin/bash -x
 
-#program to restrict use of alphabets and special characters at the end
-
 read -p "Enter Pincode : " pincode;
 
-pinPattern="^[0-9]{6}$"
+pinPattern="^[0-9]{6}$||^[0-9]{3}[[:space:]][0-9]{3}$"
 
 if [[ $pincode =~ $pinPattern ]]
 then
