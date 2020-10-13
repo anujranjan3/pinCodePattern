@@ -1,5 +1,7 @@
 #!/bin/bash -x
 
+#program to restrict use of alphabets and special characters at the end
+
 read -p "Enter Pincode : " pincode;
 
 pinPattern="^[0-9]{6}$"
